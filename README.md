@@ -283,6 +283,10 @@ Vector math routines for 2d and 3d graphics.
 ![GitHub](https://img.shields.io/github/license/guzba/supersnappy)
 ![GitHub issues](https://img.shields.io/github/issues/guzba/supersnappy)
 
+Supersnappy is a pure Nim implementation of Google's Snappy compression algorithm. The goal of this library is to be small, straightforward, dependency-free and highly performant.
+
+Benchmarking shows this library performs significantly better in all cases than alternatives even the original C++ reference implementation.
+
 
 
 ## [Chrono](https://github.com/treeform/chrono)
@@ -292,6 +296,14 @@ Vector math routines for 2d and 3d graphics.
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/chrono)
 ![GitHub](https://img.shields.io/github/license/treeform/chrono)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/chrono)
+
+Timestamps, Calendars, and Timezones library for nim.
+
+* Parse Timestamps
+* Format Timestamps
+* Manipulate Calendars
+* Use Timezones
+* In JS mode: only ship the Timezones you use.
 
 
 
@@ -303,6 +315,10 @@ Vector math routines for 2d and 3d graphics.
 ![GitHub](https://img.shields.io/github/license/treeform/benchy)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/benchy)
 
+Simple benchmarking to time your code.
+
+ Just put your code in a `timeIt` block. Also put result of your computation into `keep()` so that compiler does not optimize it out. Don't forgot to run with `-d:release` or better yet `-d:danger`.
+
 
 
 ## [Spacy](https://github.com/treeform/spacy)
@@ -312,6 +328,16 @@ Vector math routines for 2d and 3d graphics.
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/spacy)
 ![GitHub](https://img.shields.io/github/license/treeform/spacy)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/spacy)
+
+Spatial data structures for Nim.
+
+Spatial algorithms are used to find the "closest" things faster than simple brute force iteration would. They make your code run faster using smarter data structures. This library has different "Spaces" that you can use to speed up games and graphical applications.
+
+* BruteSpace (for loop)
+* SortSpace (quick sort)
+* HashSpace (2d hash table)
+* QuadSpace (Quad-tree)
+* KdSpace (KD-tree)
 
 
 
@@ -323,6 +349,15 @@ Vector math routines for 2d and 3d graphics.
 ![GitHub](https://img.shields.io/github/license/treeform/bumpy)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/bumpy)
 
+2D geometry intersections library for Nim.
+
+* Point
+* Circle
+* Rectangle
+* Segment
+* Polygon
+* Line
+
 
 
 ## [Webby](https://github.com/treeform/webby)
@@ -332,6 +367,12 @@ Vector math routines for 2d and 3d graphics.
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/webby)
 ![GitHub](https://img.shields.io/github/license/treeform/webby)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/webby)
+
+Webby is a collection of common HTTP data structures and functionality. This includes things parsing and generating:
+
+* Url
+* HTTP headers
+* Query Parameters
 
 
 
@@ -343,6 +384,14 @@ Vector math routines for 2d and 3d graphics.
 ![GitHub](https://img.shields.io/github/license/treeform/slappy)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/slappy)
 
+3D Sound API for Nim.
+
+* `.wav` and `.ogg` loading.
+* 3d positions of sounds.
+* 3d position of listener.
+* Doppler shift.
+* Acoustic attenuation.
+
 
 
 ## [Bitty](https://github.com/treeform/bitty)
@@ -352,6 +401,10 @@ Vector math routines for 2d and 3d graphics.
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/bitty)
 ![GitHub](https://img.shields.io/github/license/treeform/bitty)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/bitty)
+
+1D and 2D bit arrays and operations.
+
+If you have types like `seq[bool]` in your code, switching to bit arrays will cut down on space used.
 
 
 
@@ -363,6 +416,11 @@ Vector math routines for 2d and 3d graphics.
 ![GitHub](https://img.shields.io/github/license/treeform/taggy)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/taggy)
 
+* HTML Parser/Serializer
+* XML Parser/Serializer
+* Static HTML Generator
+* Static CSS Generator
+
 
 
 ## [Tabby](https://github.com/treeform/tabby)
@@ -372,6 +430,10 @@ Vector math routines for 2d and 3d graphics.
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/tabby)
 ![GitHub](https://img.shields.io/github/license/treeform/tabby)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/tabby)
+
+Fast CSV parser with hooks.
+
+This library parses `.csv` or `.tsv` files directly into Nim objects. This is different from how Nim's standard library [parsecsv](https://nim-lang.org/docs/parsecsv.html) works which first parses them into an intermediate representation. This makes `tabby` generate fewer memory allocations.
 
 
 
@@ -383,6 +445,17 @@ Vector math routines for 2d and 3d graphics.
 ![GitHub](https://img.shields.io/github/license/guzba/nimsimd)
 ![GitHub issues](https://img.shields.io/github/issues/guzba/nimsimd)
 
+Pleasant Nim bindings for various SIMD instructions.
+
+* SSE
+* SSE2
+* SSE3
+* SSSE3
+* SSE4.1
+* SSE4.2
+* AVX
+* AVX2
+* PCLMULQDQ
 
 
 ## [Ready](https://github.com/guzba/ready)
@@ -393,6 +466,7 @@ Vector math routines for 2d and 3d graphics.
 ![GitHub](https://img.shields.io/github/license/guzba/ready)
 ![GitHub issues](https://img.shields.io/github/issues/guzba/ready)
 
+Redis client that is built to work well in multi-threaded programs. A great use-case for Ready is in a multi-threaded HTTP server like Mummy.
 
 
 ## [Crunchy](https://github.com/guzba/crunchy)
@@ -402,6 +476,13 @@ Vector math routines for 2d and 3d graphics.
 ![GitHub Repo stars](https://img.shields.io/github/stars/guzba/crunchy)
 ![GitHub](https://img.shields.io/github/license/guzba/crunchy)
 ![GitHub issues](https://img.shields.io/github/issues/guzba/crunchy)
+
+Crunchy provides pure Nim implementations of common hashes and data integrity checks (cyclic redundancy checks and checksums). These implementations are intended to be high-performance, including amd64 and arm64 SIMD implementations or using instruction set intrinsics.
+
+* SHA-256
+* CRC-32
+* CRC-32C
+* Adler-32
 
 
 
@@ -413,6 +494,8 @@ Vector math routines for 2d and 3d graphics.
 ![GitHub](https://img.shields.io/github/license/guzba/whisky)
 ![GitHub issues](https://img.shields.io/github/issues/guzba/whisky)
 
+Blocking WebSocket client. This library provides an alternative to async for situations where it is easier or more comfortable to write blocking code.
+
 
 
 ## [Curly](https://github.com/guzba/curly)
@@ -423,6 +506,9 @@ Vector math routines for 2d and 3d graphics.
 ![GitHub](https://img.shields.io/github/license/guzba/curly)
 ![GitHub issues](https://img.shields.io/github/issues/guzba/curly)
 
+Curly makes pooling and reusing `libcurl` handles easy.
+
+Why pool and reuse `libcurl` handles? Doing so enables reusing Keep-Alive connections. This is especially beneficial for servers frequently making requests to HTTPS endpoints by skipping the need to open a new connection and do a TLS handshake for every request.
 
 
 ## [JWTea](https://github.com/guzba/jwtea)
@@ -432,6 +518,11 @@ Vector math routines for 2d and 3d graphics.
 ![GitHub Repo stars](https://img.shields.io/github/stars/guzba/jwtea)
 ![GitHub](https://img.shields.io/github/license/guzba/jwtea)
 ![GitHub issues](https://img.shields.io/github/issues/guzba/jwtea)
+
+JWTea enables the creation of JSON Web Tokens in pure Nim, without any dependency on OpenSSL or other external libraries. OpenSSL is one of the truly legendary sources of programmer pain so this repo was motivated by refusing that dependency.
+
+* HS256
+* RS256
 
 
 
