@@ -93,3 +93,83 @@ Features:
 * Show a system tray icon and menu (Windows only)
 * Non-blocking HTTP requests and WebSockets
 * Basic Example
+
+## Chroma
+
+<img src="https://github.com/treeform/chroma/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/treeform/chroma/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/chroma)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/chroma)
+![GitHub](https://img.shields.io/github/license/treeform/chroma)
+![GitHub issues](https://img.shields.io/github/issues/treeform/chroma)
+
+## Chrono
+
+<img src="https://github.com/treeform/chrono/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/treeform/chrono/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/chrono)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/chrono)
+![GitHub](https://img.shields.io/github/license/treeform/chrono)
+![GitHub issues](https://img.shields.io/github/issues/treeform/chrono)
+
+## Bumpy
+
+<img src="https://github.com/treeform/bumpy/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/treeform/bumpy/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/bumpy)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/bumpy)
+![GitHub](https://img.shields.io/github/license/treeform/bumpy)
+![GitHub issues](https://img.shields.io/github/issues/treeform/bumpy)
+
+## Jsony
+
+<img src="https://github.com/treeform/jsony/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/treeform/jsony/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/jsony)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/jsony)
+![GitHub](https://img.shields.io/github/license/treeform/jsony)
+![GitHub issues](https://img.shields.io/github/issues/treeform/jsony)
+
+## Flatty
+
+<img src="https://github.com/treeform/flatty/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/treeform/flatty/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/flatty)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/flatty)
+![GitHub](https://img.shields.io/github/license/treeform/flatty)
+![GitHub issues](https://img.shields.io/github/issues/treeform/flatty)
+
+## Netty
+
+<img src="https://github.com/treeform/netty/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/treeform/netty/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/netty)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/netty)
+![GitHub](https://img.shields.io/github/license/treeform/netty)
+![GitHub issues](https://img.shields.io/github/issues/treeform/netty)
+
+## Bitty
+
+<img src="https://github.com/treeform/bitty/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/treeform/bitty/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/bitty)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/bitty)
+![GitHub](https://img.shields.io/github/license/treeform/bitty)
+![GitHub issues](https://img.shields.io/github/issues/treeform/bitty)
+
+# Taggy
+
+<img src="https://github.com/treeform/taggy/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/treeform/taggy/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/taggy)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/taggy)
+![GitHub](https://img.shields.io/github/license/treeform/taggy)
+![GitHub issues](https://img.shields.io/github/issues/treeform/taggy)
