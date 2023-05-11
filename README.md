@@ -1,7 +1,11 @@
-# You can use this nim template to jump start your nim library or project.
+# Treeform's hobby
 
-This template includes:
-* MIT licence
-* src directory and a private common.nim
-* test directory
-* GitHub Actions to run the tests on GitHub
+My hobby is to create Nim libraries that end with y. Here is a list of my libraries and short description on why you should is them:
+
+## VMath
+
+<img src="https://github.com/treeform/vmath/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/treeform/vmath/workflows/Github%20Actions/badge.svg)
+
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/vmath?style=social)
