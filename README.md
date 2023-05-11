@@ -1,6 +1,6 @@
-# Treeform's hobby
+# Treeform's & Gusba's hobby
 
-My hobby is to create Nim libraries that end with y. Here is a list of my libraries and short description on why you should is them:
+Our hobby is to create Nim libraries that end with y. Here is a list of our libraries and short description on why you should is them:
 
 ## Pixie
 
@@ -164,7 +164,7 @@ Features:
 ![GitHub](https://img.shields.io/github/license/treeform/bitty)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/bitty)
 
-# Taggy
+## Taggy
 
 <img src="https://github.com/treeform/taggy/blob/master/docs/banner.png">
 
@@ -173,3 +173,83 @@ Features:
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/taggy)
 ![GitHub](https://img.shields.io/github/license/treeform/taggy)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/taggy)
+
+## Tabby
+
+<img src="https://github.com/treeform/tabby/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/treeform/tabby/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/tabby)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/tabby)
+![GitHub](https://img.shields.io/github/license/treeform/tabby)
+![GitHub issues](https://img.shields.io/github/issues/treeform/tabby)
+
+## Ws
+
+<img src="https://github.com/treeform/ws/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/treeform/ws/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/ws)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/ws)
+![GitHub](https://img.shields.io/github/license/treeform/ws)
+![GitHub issues](https://img.shields.io/github/issues/treeform/ws)
+
+## Webby
+
+<img src="https://github.com/treeform/webby/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/treeform/webby/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/webby)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/webby)
+![GitHub](https://img.shields.io/github/license/treeform/webby)
+![GitHub issues](https://img.shields.io/github/issues/treeform/webby)
+
+## Print
+
+<img src="https://github.com/treeform/print/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/treeform/print/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/print)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/print)
+![GitHub](https://img.shields.io/github/license/treeform/print)
+![GitHub issues](https://img.shields.io/github/issues/treeform/print)
+
+## Shady
+
+<img src="https://github.com/treeform/shady/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/treeform/shady/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/shady)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/shady)
+![GitHub](https://img.shields.io/github/license/treeform/shady)
+![GitHub issues](https://img.shields.io/github/issues/treeform/shady)
+
+## Genny
+
+<img src="https://github.com/treeform/genny/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/treeform/genny/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/genny)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/genny)
+![GitHub](https://img.shields.io/github/license/treeform/genny)
+![GitHub issues](https://img.shields.io/github/issues/treeform/genny)
+
+## Benchy
+
+<img src="https://github.com/treeform/benchy/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/treeform/benchy/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/benchy)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/benchy)
+![GitHub](https://img.shields.io/github/license/treeform/benchy)
+![GitHub issues](https://img.shields.io/github/issues/treeform/benchy)
+
+## Slappy
+
+<img src="https://github.com/treeform/slappy/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/treeform/slappy/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/slappy)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/slappy)
+![GitHub](https://img.shields.io/github/license/treeform/slappy)
+![GitHub issues](https://img.shields.io/github/issues/treeform/slappy)
