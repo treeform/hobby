@@ -2,11 +2,12 @@
 
 Our hobby is to create Nim libraries that end with y. Here is a list of our libraries and short description on why you should is them:
 
+Most of them only depend on Nim Standard library or our other libraries.
+
+All MIT licensed!
 
 
 ## [Pixie](https://github.com/treeform/pixie)
-
-<img src="https://github.com/treeform/pixie/blob/master/docs/banner.png">
 
 ![Github Actions](https://github.com/treeform/pixie/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/pixie)
@@ -15,8 +16,6 @@ Our hobby is to create Nim libraries that end with y. Here is a list of our libr
 ![GitHub issues](https://img.shields.io/github/issues/treeform/pixie)
 
 Pixie is a 2D graphics library similar to Cairo and Skia written entirely in Nim.
-
-Features:
 
 * Typesetting and rasterizing text, including styled rich text via spans.
 * Drawing paths, shapes and curves with even-odd and non-zero windings.
@@ -32,19 +31,25 @@ Features:
 
 ## [Ws](https://github.com/treeform/ws)
 
-<img src="https://github.com/treeform/ws/blob/master/docs/banner.png">
-
 ![Github Actions](https://github.com/treeform/ws/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/ws)
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/ws)
 ![GitHub](https://img.shields.io/github/license/treeform/ws)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/ws)
 
+Simple WebSocket library for nim.
+
+* Client and Server Side WebSocket
+* Async/Await Support
+* WebSocket Protocols
+* Timeouts and Disconnects
+* SSL support
+* Jester support
+* Compliant with the [WebSocket protocol](https://tools.ietf.org/html/rfc6455).
+
 
 
 ## [Zippy](https://github.com/guzba/zippy)
-
-<img src="https://github.com/guzba/zippy/blob/master/docs/banner.png">
 
 ![Github Actions](https://github.com/guzba/zippy/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/zippy)
@@ -52,11 +57,14 @@ Features:
 ![GitHub](https://img.shields.io/github/license/guzba/zippy)
 ![GitHub issues](https://img.shields.io/github/issues/guzba/zippy)
 
+Zippy is an implementation of DEFLATE, ZLIB and GZIP data compression formats.
+
+Zippy can also open ZIP archives (.zip) and Tarballs (.tar, .tar.gz, .tgz, .taz).
+
+The goal of this library is to be a pure Nim implementation that is small, performant and dependency-free.
 
 
 ## [Jsony](https://github.com/treeform/jsony)
-
-<img src="https://github.com/treeform/jsony/blob/master/docs/banner.png">
 
 ![Github Actions](https://github.com/treeform/jsony/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/jsony)
@@ -64,11 +72,19 @@ Features:
 ![GitHub](https://img.shields.io/github/license/treeform/jsony)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/jsony)
 
+A loose, direct to object JSON parser and serializer with hooks.
+
+Real world json is never what you want. It might have extra fields that you don't care about. It might have missing fields requiring default values. It might change or grow new fields at any moment. Json might use camelCase or snake_case. It might use inconsistent naming.
+
+With this library you can use json your way, from the mess you get to the objects you want.
+
+* Parses and serializes JSON very fast.
+* newHook, postHook, enumHook, renameHook, parseHook, dumpHook, skipHook
+* Support for JSON-in-JSON and raw JSON.
+
 
 
 ## [Mummy](https://github.com/guzba/mummy)
-
-<img src="https://github.com/guzba/mummy/blob/master/docs/banner.png">
 
 ![Github Actions](https://github.com/guzba/mummy/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/mummy)
@@ -76,11 +92,16 @@ Features:
 ![GitHub](https://img.shields.io/github/license/guzba/mummy)
 ![GitHub issues](https://img.shields.io/github/issues/guzba/mummy)
 
+Mummy is a multi-threaded HTTP 1.1 and WebSocket server written entirely in Nim.
+Mummy has been written specifically to maximize the performance of your server hardware without compromising on programmer happiness.
+
+* Supports HTTP keep-alive and gzip response compression automatically.
+* Built-in first-class WebSocket support.
+* Multiplexed socket IO without the {.async.} price.
+
 
 
 ## [Genny](https://github.com/treeform/genny)
-
-<img src="https://github.com/treeform/genny/blob/master/docs/banner.png">
 
 ![Github Actions](https://github.com/treeform/genny/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/genny)
@@ -88,11 +109,13 @@ Features:
 ![GitHub](https://img.shields.io/github/license/treeform/genny)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/genny)
 
+Generate Nim library bindings for many languages
+
+So you made a cool Nim library but you want it to be available to other languages as well. With `genny` you can generate a dynamically linked library with a simple C API and generated bindings for many languages. In some ways its similar to [SWIG](http://www.swig.org/) project for C or [djinni](https://github.com/dropbox/djinni) for C++.
+
 
 
 ## [Puppy](https://github.com/treeform/puppy)
-
-<img src="https://github.com/treeform/puppy/blob/master/docs/banner.png">
 
 ![Github Actions](https://github.com/treeform/puppy/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/puppy)
@@ -100,10 +123,13 @@ Features:
 ![GitHub](https://img.shields.io/github/license/treeform/puppy)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/puppy)
 
+Fetch resources via HTTP and HTTPS.
+
+Puppy does not use Nim's HTTP stack, instead it uses `WinHttp` API on Windows , `AppKit` on macOS, and `libcurl` on Linux. Because Puppy uses system APIs, there is no need to ship extra `*.dll`s, `cacert.pem`, or forget to pass the `-d:ssl` flag. This also has the effect of producing slightly smaller binaires.
+
+
 
 ## [Netty](https://github.com/treeform/netty)
-
-<img src="https://github.com/treeform/netty/blob/master/docs/banner.png">
 
 ![Github Actions](https://github.com/treeform/netty/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/netty)
@@ -111,11 +137,12 @@ Features:
 ![GitHub](https://img.shields.io/github/license/treeform/netty)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/netty)
 
+Reliable UDP connection for Nim.
+
+Netty is a reliable connection over UDP aimed at games. Normally UDP packets can get duplicated, dropped, or come out of order. Netty makes sure packets are not duplicated, re-sends them if they get dropped, and all packets come in order. UDP packets might also get split if they are above 512 bytes and also can fail to be sent if they are bigger than 1-2k. Netty breaks up big packets and sends them in pieces making sure each piece comes reliably in order. Finally sometimes it's impossible for two clients to communicate direclty with TCP because of NATs, but Netty provides hole punching which allows them to connect.
 
 
 ## [Shady](https://github.com/treeform/shady)
-
-<img src="https://github.com/treeform/shady/blob/master/docs/banner.png">
 
 ![Github Actions](https://github.com/treeform/shady/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/shady)
@@ -123,11 +150,16 @@ Features:
 ![GitHub](https://img.shields.io/github/license/treeform/shady)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/shady)
 
+Nim to GPU shader language compiler and supporting utilities.
+
+Shady can compile a subset of Nim into `OpenGL Shader Language` used by the GPU. This allows you to test your shader code with `echo` statements on the CPU and then run the exact same code on the GPU.
+
+* Write vertex and fragment/pixel shaders for games and 3d applications.
+* Write compute shaders for offline processing and number crunching.
+
 
 
 ## [Print](https://github.com/treeform/print)
-
-<img src="https://github.com/treeform/print/blob/master/docs/banner.png">
 
 ![Github Actions](https://github.com/treeform/print/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/print)
@@ -135,11 +167,13 @@ Features:
 ![GitHub](https://img.shields.io/github/license/treeform/print)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/print)
 
+A pretty printing, better echo.
+
+Use `print` the same way you would use `echo` for print-debugging. It prints objects the "Nim way" with syntax highlighting. Even with refs, pointers, or cycles!
+
 
 
 ## [Chroma](https://github.com/treeform/chroma)
-
-<img src="https://github.com/treeform/chroma/blob/master/docs/banner.png">
 
 ![Github Actions](https://github.com/treeform/chroma/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/chroma)
@@ -147,11 +181,15 @@ Features:
 ![GitHub](https://img.shields.io/github/license/treeform/chroma)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/chroma)
 
+Everything you want to do with colors.
+
+* Color spaces: `CMY`, `CMYK`, `HSL`, `HSV`, `YUV`, `XYZ`, `LAB`, `CIELCh`, `LUV`, `CIELCH`, `Oklab`
+* Easily parse and transform colors. `FFFFFF`,  `#FFFFFF`, `rgb(255, 255, 255)`,  `rgba(255, 255, 255, 1.0)`
+* Optimized to be fast and consistent.
+
 
 
 ## [Windy](https://github.com/treeform/windy)
-
-<img src="https://github.com/treeform/windy/blob/master/docs/banner.png">
 
 ![Github Actions](https://github.com/treeform/windy/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/windy)
@@ -182,8 +220,6 @@ Features:
 
 ## [Boxy](https://github.com/treeform/boxy)
 
-<img src="https://github.com/treeform/boxy/blob/master/docs/banner.png">
-
 ![Github Actions](https://github.com/treeform/boxy/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/boxy)
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/boxy)
@@ -204,19 +240,23 @@ The basic model for using Boxy goes something like this:
 
 ## [Flatty](https://github.com/treeform/flatty)
 
-<img src="https://github.com/treeform/flatty/blob/master/docs/banner.png">
-
 ![Github Actions](https://github.com/treeform/flatty/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/flatty)
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/flatty)
 ![GitHub](https://img.shields.io/github/license/treeform/flatty)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/flatty)
 
+Serializer and tools for flat binary blobs.
+
+* Aim of `flatty` is to be the fastest and simplest serializer/deserializer for Nim.
+* Also includes `hexprint` to print out binary data.
+* Also includes `binny` a simpler replacement for StringStream (no IO effects, operates on a string)
+* Also includes `hashy` a hash for any objects based on the flatty serializer.
+* Also includes `encode` a way to convert to/from utf16 BE/LE and with BOM and utf32.
+
 
 
 ## [VMath](https://github.com/treeform/vmath)
-
-<img src="https://github.com/treeform/vmath/blob/master/docs/banner.png">
 
 ![Github Actions](https://github.com/treeform/vmath/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/vmath)
@@ -224,7 +264,7 @@ The basic model for using Boxy goes something like this:
 ![GitHub](https://img.shields.io/github/license/treeform/vmath)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/vmath)
 
-Your one stop shop for vector math routines for 2d and 3d graphics.
+Vector math routines for 2d and 3d graphics.
 
 * Pure Nim with no dependencies.
 * 2D & 3D matrix math
@@ -237,8 +277,6 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 
 ## [SuperSnappy](https://github.com/guzba/supersnappy)
 
-<img src="https://github.com/guzba/supersnappy/blob/master/docs/banner.png">
-
 ![Github Actions](https://github.com/guzba/supersnappy/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/supersnappy)
 ![GitHub Repo stars](https://img.shields.io/github/stars/guzba/supersnappy)
@@ -248,8 +286,6 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 
 
 ## [Chrono](https://github.com/treeform/chrono)
-
-<img src="https://github.com/treeform/chrono/blob/master/docs/banner.png">
 
 ![Github Actions](https://github.com/treeform/chrono/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/chrono)
@@ -261,8 +297,6 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 
 ## [Benchy](https://github.com/treeform/benchy)
 
-<img src="https://github.com/treeform/benchy/blob/master/docs/banner.png">
-
 ![Github Actions](https://github.com/treeform/benchy/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/benchy)
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/benchy)
@@ -272,8 +306,6 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 
 
 ## [Spacy](https://github.com/treeform/spacy)
-
-<img src="https://github.com/treeform/spacy/blob/master/docs/banner.png">
 
 ![Github Actions](https://github.com/treeform/spacy/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/spacy)
@@ -285,8 +317,6 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 
 ## [Bumpy](https://github.com/treeform/bumpy)
 
-<img src="https://github.com/treeform/bumpy/blob/master/docs/banner.png">
-
 ![Github Actions](https://github.com/treeform/bumpy/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/bumpy)
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/bumpy)
@@ -295,45 +325,7 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 
 
 
-## [Bitty](https://github.com/treeform/bitty)
-
-<img src="https://github.com/treeform/bitty/blob/master/docs/banner.png">
-
-![Github Actions](https://github.com/treeform/bitty/workflows/Github%20Actions/badge.svg)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/bitty)
-![GitHub Repo stars](https://img.shields.io/github/stars/treeform/bitty)
-![GitHub](https://img.shields.io/github/license/treeform/bitty)
-![GitHub issues](https://img.shields.io/github/issues/treeform/bitty)
-
-
-
-## [Taggy](https://github.com/treeform/taggy)
-
-<img src="https://github.com/treeform/taggy/blob/master/docs/banner.png">
-
-![Github Actions](https://github.com/treeform/taggy/workflows/Github%20Actions/badge.svg)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/taggy)
-![GitHub Repo stars](https://img.shields.io/github/stars/treeform/taggy)
-![GitHub](https://img.shields.io/github/license/treeform/taggy)
-![GitHub issues](https://img.shields.io/github/issues/treeform/taggy)
-
-
-
-## [Tabby](https://github.com/treeform/tabby)
-
-<img src="https://github.com/treeform/tabby/blob/master/docs/banner.png">
-
-![Github Actions](https://github.com/treeform/tabby/workflows/Github%20Actions/badge.svg)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/tabby)
-![GitHub Repo stars](https://img.shields.io/github/stars/treeform/tabby)
-![GitHub](https://img.shields.io/github/license/treeform/tabby)
-![GitHub issues](https://img.shields.io/github/issues/treeform/tabby)
-
-
-
 ## [Webby](https://github.com/treeform/webby)
-
-<img src="https://github.com/treeform/webby/blob/master/docs/banner.png">
 
 ![Github Actions](https://github.com/treeform/webby/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/webby)
@@ -345,8 +337,6 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 
 ## [Slappy](https://github.com/treeform/slappy)
 
-<img src="https://github.com/treeform/slappy/blob/master/docs/banner.png">
-
 ![Github Actions](https://github.com/treeform/slappy/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/slappy)
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/slappy)
@@ -355,9 +345,37 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 
 
 
-## [nimsimd](https://github.com/guzba/nimsimd)
+## [Bitty](https://github.com/treeform/bitty)
 
-<img src="https://github.com/guzba/nimsimd/blob/master/docs/banner.png">
+![Github Actions](https://github.com/treeform/bitty/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/bitty)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/bitty)
+![GitHub](https://img.shields.io/github/license/treeform/bitty)
+![GitHub issues](https://img.shields.io/github/issues/treeform/bitty)
+
+
+
+## [Taggy](https://github.com/treeform/taggy)
+
+![Github Actions](https://github.com/treeform/taggy/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/taggy)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/taggy)
+![GitHub](https://img.shields.io/github/license/treeform/taggy)
+![GitHub issues](https://img.shields.io/github/issues/treeform/taggy)
+
+
+
+## [Tabby](https://github.com/treeform/tabby)
+
+![Github Actions](https://github.com/treeform/tabby/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/tabby)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/tabby)
+![GitHub](https://img.shields.io/github/license/treeform/tabby)
+![GitHub issues](https://img.shields.io/github/issues/treeform/tabby)
+
+
+
+## [NimSIMD](https://github.com/guzba/nimsimd)
 
 ![Github Actions](https://github.com/guzba/nimsimd/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/nimsimd)
@@ -367,9 +385,7 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 
 
 
-## [ready](https://github.com/guzba/ready)
-
-<img src="https://github.com/guzba/ready/blob/master/docs/banner.png">
+## [Ready](https://github.com/guzba/ready)
 
 ![Github Actions](https://github.com/guzba/ready/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/ready)
@@ -379,9 +395,7 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 
 
 
-## [crunchy](https://github.com/guzba/crunchy)
-
-<img src="https://github.com/guzba/crunchy/blob/master/docs/banner.png">
+## [Crunchy](https://github.com/guzba/crunchy)
 
 ![Github Actions](https://github.com/guzba/crunchy/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/crunchy)
@@ -391,9 +405,7 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 
 
 
-## [whisky](https://github.com/guzba/whisky)
-
-<img src="https://github.com/guzba/whisky/blob/master/docs/banner.png">
+## [Whisky](https://github.com/guzba/whisky)
 
 ![Github Actions](https://github.com/guzba/whisky/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/whisky)
@@ -403,9 +415,7 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 
 
 
-## [curly](https://github.com/guzba/curly)
-
-<img src="https://github.com/guzba/curly/blob/master/docs/banner.png">
+## [Curly](https://github.com/guzba/curly)
 
 ![Github Actions](https://github.com/guzba/curly/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/curly)
@@ -415,9 +425,7 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 
 
 
-## [jwtea](https://github.com/guzba/jwtea)
-
-<img src="https://github.com/guzba/jwtea/blob/master/docs/banner.png">
+## [JWTea](https://github.com/guzba/jwtea)
 
 ![Github Actions](https://github.com/guzba/jwtea/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/jwtea)
@@ -432,6 +440,6 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 We have written some libraries that we are not longer maintaining:
 
 * Fidget
-* Urlly - use Webby instead.
-* Typography - use Pixie instead.
-* staticglfw - use Windy instead.
+* [Urlly](https://github.com/treeform/urlly)  - use [Webby](https://github.com/treeform/webby) instead.
+* [Typography](https://github.com/treeform/typography) - use [Pixie](https://github.com/treeform/pixie) instead.
+* [StaticGLFW](https://github.com/treeform/staticglfw) - use [Windy](https://github.com/treeform/windy) instead.
