@@ -2,6 +2,8 @@
 
 Our hobby is to create Nim libraries that end with y. Here is a list of our libraries and short description on why you should is them:
 
+
+
 ## [Pixie](https://github.com/treeform/pixie)
 
 <img src="https://github.com/treeform/pixie/blob/master/docs/banner.png">
@@ -26,6 +28,8 @@ Features:
 * Complex blends: Darken, Multiply, Color Dodge, Hue, Luminosity... etc.
 * Many operations are SIMD accelerated.
 
+
+
 ## [Ws](https://github.com/treeform/ws)
 
 <img src="https://github.com/treeform/ws/blob/master/docs/banner.png">
@@ -35,6 +39,20 @@ Features:
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/ws)
 ![GitHub](https://img.shields.io/github/license/treeform/ws)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/ws)
+
+
+
+## [Zippy](https://github.com/guzba/zippy)
+
+<img src="https://github.com/guzba/zippy/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/guzba/zippy/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/zippy)
+![GitHub Repo stars](https://img.shields.io/github/stars/guzba/zippy)
+![GitHub](https://img.shields.io/github/license/guzba/zippy)
+![GitHub issues](https://img.shields.io/github/issues/guzba/zippy)
+
+
 
 ## [Jsony](https://github.com/treeform/jsony)
 
@@ -46,6 +64,20 @@ Features:
 ![GitHub](https://img.shields.io/github/license/treeform/jsony)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/jsony)
 
+
+
+## [Mummy](https://github.com/guzba/mummy)
+
+<img src="https://github.com/guzba/mummy/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/guzba/mummy/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/mummy)
+![GitHub Repo stars](https://img.shields.io/github/stars/guzba/mummy)
+![GitHub](https://img.shields.io/github/license/guzba/mummy)
+![GitHub issues](https://img.shields.io/github/issues/guzba/mummy)
+
+
+
 ## [Genny](https://github.com/treeform/genny)
 
 <img src="https://github.com/treeform/genny/blob/master/docs/banner.png">
@@ -55,6 +87,8 @@ Features:
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/genny)
 ![GitHub](https://img.shields.io/github/license/treeform/genny)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/genny)
+
+
 
 ## [Puppy](https://github.com/treeform/puppy)
 
@@ -77,6 +111,8 @@ Features:
 ![GitHub](https://img.shields.io/github/license/treeform/netty)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/netty)
 
+
+
 ## [Shady](https://github.com/treeform/shady)
 
 <img src="https://github.com/treeform/shady/blob/master/docs/banner.png">
@@ -86,6 +122,8 @@ Features:
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/shady)
 ![GitHub](https://img.shields.io/github/license/treeform/shady)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/shady)
+
+
 
 ## [Print](https://github.com/treeform/print)
 
@@ -98,6 +136,7 @@ Features:
 ![GitHub issues](https://img.shields.io/github/issues/treeform/print)
 
 
+
 ## [Chroma](https://github.com/treeform/chroma)
 
 <img src="https://github.com/treeform/chroma/blob/master/docs/banner.png">
@@ -107,6 +146,8 @@ Features:
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/chroma)
 ![GitHub](https://img.shields.io/github/license/treeform/chroma)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/chroma)
+
+
 
 ## [Windy](https://github.com/treeform/windy)
 
@@ -137,6 +178,8 @@ Features:
 * Non-blocking HTTP requests and WebSockets
 * Basic Example
 
+
+
 ## [Boxy](https://github.com/treeform/boxy)
 
 <img src="https://github.com/treeform/boxy/blob/master/docs/banner.png">
@@ -157,6 +200,20 @@ The basic model for using Boxy goes something like this:
 * Add these images to Boxy, where they are put into a tiling atlas texture.
 * Draw these images to screen each frame.
 
+
+
+## [Flatty](https://github.com/treeform/flatty)
+
+<img src="https://github.com/treeform/flatty/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/treeform/flatty/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/flatty)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/flatty)
+![GitHub](https://img.shields.io/github/license/treeform/flatty)
+![GitHub issues](https://img.shields.io/github/issues/treeform/flatty)
+
+
+
 ## [VMath](https://github.com/treeform/vmath)
 
 <img src="https://github.com/treeform/vmath/blob/master/docs/banner.png">
@@ -176,6 +233,20 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 * Very similar to GLSL Shader Language with extra stuff.
 * Extensively benchmarked.
 
+
+
+## [SuperSnappy](https://github.com/guzba/supersnappy)
+
+<img src="https://github.com/guzba/supersnappy/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/guzba/supersnappy/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/supersnappy)
+![GitHub Repo stars](https://img.shields.io/github/stars/guzba/supersnappy)
+![GitHub](https://img.shields.io/github/license/guzba/supersnappy)
+![GitHub issues](https://img.shields.io/github/issues/guzba/supersnappy)
+
+
+
 ## [Chrono](https://github.com/treeform/chrono)
 
 <img src="https://github.com/treeform/chrono/blob/master/docs/banner.png">
@@ -186,15 +257,6 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 ![GitHub](https://img.shields.io/github/license/treeform/chrono)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/chrono)
 
-## [Flatty](https://github.com/treeform/flatty)
-
-<img src="https://github.com/treeform/flatty/blob/master/docs/banner.png">
-
-![Github Actions](https://github.com/treeform/flatty/workflows/Github%20Actions/badge.svg)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/flatty)
-![GitHub Repo stars](https://img.shields.io/github/stars/treeform/flatty)
-![GitHub](https://img.shields.io/github/license/treeform/flatty)
-![GitHub issues](https://img.shields.io/github/issues/treeform/flatty)
 
 
 ## [Benchy](https://github.com/treeform/benchy)
@@ -207,6 +269,8 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 ![GitHub](https://img.shields.io/github/license/treeform/benchy)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/benchy)
 
+
+
 ## [Spacy](https://github.com/treeform/spacy)
 
 <img src="https://github.com/treeform/spacy/blob/master/docs/banner.png">
@@ -216,6 +280,7 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/spacy)
 ![GitHub](https://img.shields.io/github/license/treeform/spacy)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/spacy)
+
 
 
 ## [Bumpy](https://github.com/treeform/bumpy)
@@ -240,6 +305,8 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 ![GitHub](https://img.shields.io/github/license/treeform/bitty)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/bitty)
 
+
+
 ## [Taggy](https://github.com/treeform/taggy)
 
 <img src="https://github.com/treeform/taggy/blob/master/docs/banner.png">
@@ -250,6 +317,8 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 ![GitHub](https://img.shields.io/github/license/treeform/taggy)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/taggy)
 
+
+
 ## [Tabby](https://github.com/treeform/tabby)
 
 <img src="https://github.com/treeform/tabby/blob/master/docs/banner.png">
@@ -259,6 +328,7 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/tabby)
 ![GitHub](https://img.shields.io/github/license/treeform/tabby)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/tabby)
+
 
 
 ## [Webby](https://github.com/treeform/webby)
@@ -273,9 +343,6 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 
 
 
-
-
-
 ## [Slappy](https://github.com/treeform/slappy)
 
 <img src="https://github.com/treeform/slappy/blob/master/docs/banner.png">
@@ -285,6 +352,79 @@ Your one stop shop for vector math routines for 2d and 3d graphics.
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/slappy)
 ![GitHub](https://img.shields.io/github/license/treeform/slappy)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/slappy)
+
+
+
+## [nimsimd](https://github.com/guzba/nimsimd)
+
+<img src="https://github.com/guzba/nimsimd/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/guzba/nimsimd/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/nimsimd)
+![GitHub Repo stars](https://img.shields.io/github/stars/guzba/nimsimd)
+![GitHub](https://img.shields.io/github/license/guzba/nimsimd)
+![GitHub issues](https://img.shields.io/github/issues/guzba/nimsimd)
+
+
+
+## [ready](https://github.com/guzba/ready)
+
+<img src="https://github.com/guzba/ready/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/guzba/ready/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/ready)
+![GitHub Repo stars](https://img.shields.io/github/stars/guzba/ready)
+![GitHub](https://img.shields.io/github/license/guzba/ready)
+![GitHub issues](https://img.shields.io/github/issues/guzba/ready)
+
+
+
+## [crunchy](https://github.com/guzba/crunchy)
+
+<img src="https://github.com/guzba/crunchy/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/guzba/crunchy/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/crunchy)
+![GitHub Repo stars](https://img.shields.io/github/stars/guzba/crunchy)
+![GitHub](https://img.shields.io/github/license/guzba/crunchy)
+![GitHub issues](https://img.shields.io/github/issues/guzba/crunchy)
+
+
+
+## [whisky](https://github.com/guzba/whisky)
+
+<img src="https://github.com/guzba/whisky/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/guzba/whisky/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/whisky)
+![GitHub Repo stars](https://img.shields.io/github/stars/guzba/whisky)
+![GitHub](https://img.shields.io/github/license/guzba/whisky)
+![GitHub issues](https://img.shields.io/github/issues/guzba/whisky)
+
+
+
+## [curly](https://github.com/guzba/curly)
+
+<img src="https://github.com/guzba/curly/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/guzba/curly/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/curly)
+![GitHub Repo stars](https://img.shields.io/github/stars/guzba/curly)
+![GitHub](https://img.shields.io/github/license/guzba/curly)
+![GitHub issues](https://img.shields.io/github/issues/guzba/curly)
+
+
+
+## [jwtea](https://github.com/guzba/jwtea)
+
+<img src="https://github.com/guzba/jwtea/blob/master/docs/banner.png">
+
+![Github Actions](https://github.com/guzba/jwtea/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/jwtea)
+![GitHub Repo stars](https://img.shields.io/github/stars/guzba/jwtea)
+![GitHub](https://img.shields.io/github/license/guzba/jwtea)
+![GitHub issues](https://img.shields.io/github/issues/guzba/jwtea)
+
 
 
 # Deprecated libraries
