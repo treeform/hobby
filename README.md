@@ -341,6 +341,24 @@ Spatial algorithms are used to find the "closest" things faster than simple brut
 
 
 
+## [Orbits](https://github.com/treeform/orbits)
+
+![Github Actions](https://github.com/treeform/orbits/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/orbits)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/orbits)
+![GitHub](https://img.shields.io/github/license/treeform/orbits)
+![GitHub issues](https://img.shields.io/github/issues/treeform/orbits)
+
+Orbits are beautiful, with their gentle curves and sweeping arcs. They have captivated astronomers for thousands of years and have made mathematics and physics to what they are today. There is so much to the orbits if you dig dipper. Where do you get most accurate data? How do you compute transfer windows? Can you plot trajectories of spacecraft? This is what this library is about. An exploration of deep beyond with Nim at your side.
+
+* Simple Elliptical Orbits
+* Kernel Files Orbits (NASA's .bsp SPICE SP-kernels)
+* JPL Horizon Orbits
+* Simulations
+* Astrometry
+
+
+
 ## [Bumpy](https://github.com/treeform/bumpy)
 
 ![Github Actions](https://github.com/treeform/bumpy/workflows/Github%20Actions/badge.svg)
@@ -405,6 +423,18 @@ Webby is a collection of common HTTP data structures and functionality. This inc
 1D and 2D bit arrays and operations.
 
 If you have types like `seq[bool]` in your code, switching to bit arrays will cut down on space used.
+
+
+
+## [Steganography](https://github.com/treeform/steganography)
+
+![Github Actions](https://github.com/treeform/steganography/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/steganography)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/steganography)
+![GitHub](https://img.shields.io/github/license/treeform/steganography)
+![GitHub issues](https://img.shields.io/github/issues/treeform/steganography)
+
+Hide data inside an image. Encode and decode images.
 
 
 
@@ -531,6 +561,7 @@ JWTea enables the creation of JSON Web Tokens in pure Nim, without any dependenc
 We have written some libraries that we are not longer maintaining:
 
 * Fidget
-* [Urlly](https://github.com/treeform/urlly)  - use [Webby](https://github.com/treeform/webby) instead.
+* [Urlly](https://github.com/treeform/urlly) - use [Webby](https://github.com/treeform/webby) instead.
 * [Typography](https://github.com/treeform/typography) - use [Pixie](https://github.com/treeform/pixie) instead.
 * [StaticGLFW](https://github.com/treeform/staticglfw) - use [Windy](https://github.com/treeform/windy) instead.
+* [Flippy](https://github.com/treeform/flippy) - use [Pixie](https://github.com/treeform/pixie) instead.
