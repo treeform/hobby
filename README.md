@@ -561,7 +561,6 @@ JWTea enables the creation of JSON Web Tokens in pure Nim, without any dependenc
 
 We have written some libraries that we are not longer maintaining:
 
-* Fidget
 * [Urlly](https://github.com/treeform/urlly) - use [Webby](https://github.com/treeform/webby) instead.
 * [Typography](https://github.com/treeform/typography) - use [Pixie](https://github.com/treeform/pixie) instead.
 * [StaticGLFW](https://github.com/treeform/staticglfw) - use [Windy](https://github.com/treeform/windy) instead.
