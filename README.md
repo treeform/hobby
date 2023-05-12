@@ -541,6 +541,7 @@ Curly makes pooling and reusing `libcurl` handles easy.
 Why pool and reuse `libcurl` handles? Doing so enables reusing Keep-Alive connections. This is especially beneficial for servers frequently making requests to HTTPS endpoints by skipping the need to open a new connection and do a TLS handshake for every request.
 
 
+
 ## [JWTea](https://github.com/guzba/jwtea)
 
 ![Github Actions](https://github.com/guzba/jwtea/workflows/Github%20Actions/badge.svg)
