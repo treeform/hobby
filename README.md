@@ -158,21 +158,6 @@ Shady can compile a subset of Nim into `OpenGL Shader Language` used by the GPU.
 * Write compute shaders for offline processing and number crunching.
 
 
-
-## [Print](https://github.com/treeform/print)
-
-![Github Actions](https://github.com/treeform/print/workflows/Github%20Actions/badge.svg)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/print)
-![GitHub Repo stars](https://img.shields.io/github/stars/treeform/print)
-![GitHub](https://img.shields.io/github/license/treeform/print)
-![GitHub issues](https://img.shields.io/github/issues/treeform/print)
-
-A pretty printing, better echo.
-
-Use `print` the same way you would use `echo` for print-debugging. It prints objects the "Nim way" with syntax highlighting. Even with refs, pointers, or cycles!
-
-
-
 ## [Chroma](https://github.com/treeform/chroma)
 
 ![Github Actions](https://github.com/treeform/chroma/workflows/Github%20Actions/badge.svg)
@@ -556,6 +541,18 @@ JWTea enables the creation of JSON Web Tokens in pure Nim, without any dependenc
 * RS256
 
 
+## [Pretty](https://github.com/treeform/pretty)
+
+![Github Actions](https://github.com/treeform/pretty/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/pretty)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/pretty)
+![GitHub](https://img.shields.io/github/license/treeform/pretty)
+![GitHub issues](https://img.shields.io/github/issues/treeform/pretty)
+
+A pretty prettying, better echo.
+
+Use `pretty`.`print` the same way you would use `echo` for pretty-debugging. It pretty prints objects the "Nim way" with syntax highlighting. Even with refs, pointers, or cycles!
+
 
 # Deprecated libraries
 
@@ -565,3 +562,4 @@ We have written some libraries that we are not longer maintaining:
 * [Typography](https://github.com/treeform/typography) - use [Pixie](https://github.com/treeform/pixie) instead.
 * [StaticGLFW](https://github.com/treeform/staticglfw) - use [Windy](https://github.com/treeform/windy) instead.
 * [Flippy](https://github.com/treeform/flippy) - use [Pixie](https://github.com/treeform/pixie) instead.
+* [Print](https://github.com/treeform/print) - use [Pretty](https://github.com/treeform/pretty) instead.
