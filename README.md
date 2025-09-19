@@ -27,6 +27,17 @@ Pixie is a 2D graphics library similar to Cairo and Skia written entirely in Nim
 * Complex blends: Darken, Multiply, Color Dodge, Hue, Luminosity... etc.
 * Many operations are SIMD accelerated.
 
+## [Fidget 2](https://github.com/treeform/fidget2)
+
+![Github Actions](https://github.com/treeform/fidget2/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/fidget2)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/fidget2)
+![GitHub](https://img.shields.io/github/license/treeform/fidget2)
+![GitHub issues](https://img.shields.io/github/issues/treeform/fidget2)
+
+Fidget2 aims to provide natively compiled cross platform UIs for any platform - Web with HTML5 (WASM), Windows, macOS, and Linux.
+
+Fidget2 leverages [Figma](https://www.figma.com/) - an app that is taking the design world by storm. Fidget2 uses Figma API to load designs directly. No more counting pixels, no more CSS puzzles. Want to change some spaces? Change it in Figma, press F5 in your see the changes in real time!
 
 
 ## [Ws](https://github.com/treeform/ws)
