@@ -169,6 +169,23 @@ Shady can compile a subset of Nim into `OpenGL Shader Language` used by the GPU.
 * Write compute shaders for offline processing and number crunching.
 
 
+## [Nim Template](https://github.com/treeform/nimtemplate)
+
+![Github Actions](https://github.com/treeform/nimtemplate/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/nimtemplate)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/nimtemplate)
+![GitHub](https://img.shields.io/github/license/treeform/nimtemplate)
+![GitHub issues](https://img.shields.io/github/issues/treeform/nimtemplate)
+
+You can use this nim template to jump start your nim library or project.
+
+This template includes:
+* MIT licence
+* src directory and a private common.nim
+* test directory
+* GitHub Actions to run the tests on GitHub
+
+
 ## [Chroma](https://github.com/treeform/chroma)
 
 ![Github Actions](https://github.com/treeform/chroma/workflows/Github%20Actions/badge.svg)
