@@ -503,7 +503,6 @@ Pleasant Nim bindings for various SIMD instructions.
 
 ## [Ready](https://github.com/guzba/ready)
 
-![Github Actions](https://github.com/guzba/ready/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/guzba/ready)
 ![GitHub Repo stars](https://img.shields.io/github/stars/guzba/ready)
 ![GitHub](https://img.shields.io/github/license/guzba/ready)
