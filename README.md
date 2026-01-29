@@ -1,8 +1,8 @@
 # Treeform's & Guzba's hobby
 
-Our hobby is to create Nim libraries that end with y. Here is a list of our libraries and short description on why you should is them:
+Our hobby is to create Nim libraries that end with y. Here is a list of our libraries and short descriptions on why you should use them:
 
-Most of them only depend on Nim Standard library or our other libraries.
+Most of them only depend on the Nim Standard library or our other libraries.
 
 All MIT licensed!
 
