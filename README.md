@@ -417,7 +417,6 @@ Benchmarking shows this library performs significantly better in all cases than 
 
 ## [Chrono](https://github.com/treeform/chrono)
 
-![Github Actions](https://github.com/treeform/chrono/workflows/Github%20Actions/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/chrono)
 ![GitHub Repo stars](https://img.shields.io/github/stars/treeform/chrono)
 ![GitHub](https://img.shields.io/github/license/treeform/chrono)
