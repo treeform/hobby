@@ -155,6 +155,21 @@ So you made a cool Nim library but you want it to be available to other language
 
 
 
+## [Nimby](https://github.com/treeform/nimby)
+
+![Github Actions](https://github.com/treeform/nimby/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/nimby)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/nimby)
+![GitHub](https://img.shields.io/github/license/treeform/nimby)
+![GitHub issues](https://img.shields.io/github/issues/treeform/nimby)
+
+Nimby is an unofficial package manager.
+
+* Very fast, dowloads minial files from git and in parallel.
+* Installs Nim itself if you want.
+* Works with lock files to make CI and reproducible builds easy.
+* Workspace based installation.
+
 ## [Puppy](https://github.com/treeform/puppy)
 
 ![Github Actions](https://github.com/treeform/puppy/workflows/Github%20Actions/badge.svg)
