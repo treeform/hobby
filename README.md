@@ -55,6 +55,20 @@ Fidget2 aims to provide natively compiled cross platform UIs for any platform - 
 Fidget2 leverages [Figma](https://www.figma.com/) - an app that is taking the design world by storm. Fidget2 uses Figma API to load designs directly. No more counting pixels, no more CSS puzzles. Want to change some spaces? Change it in Figma, press F5 in your see the changes in real time!
 
 
+## [Silky](https://github.com/treeform/silky)
+
+![Github Actions](https://github.com/treeform/silky/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/silky)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/silky)
+![GitHub](https://img.shields.io/github/license/treeform/silky)
+![GitHub issues](https://img.shields.io/github/issues/treeform/silky)
+
+Silky is an immediate mode GUI for Nim that focuses on speed above all else.
+
+* Immediate mode UI design that aims to feel natural in Nim.
+* Includes fast atlas-based rendering, 9-patch support, and a clean UI DSL.
+
+
 ## [Ws](https://github.com/treeform/ws)
 
 ![Github Actions](https://github.com/treeform/ws/workflows/Github%20Actions/badge.svg)
@@ -184,6 +198,62 @@ Shady can compile a subset of Nim into `OpenGL Shader Language` used by the GPU.
 * Write compute shaders for offline processing and number crunching.
 
 
+## [metal4](https://github.com/treeform/metal4)
+
+![Github Actions](https://github.com/treeform/metal4/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/metal4)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/metal4)
+![GitHub](https://img.shields.io/github/license/treeform/metal4)
+![GitHub issues](https://img.shields.io/github/issues/treeform/metal4)
+
+Metal 4 bindings for Nim on macOS.
+
+* Low-level access to Apple's Metal API from Nim.
+* Useful for graphics experiments, renderers, and native macOS GPU work.
+
+
+## [vk14](https://github.com/treeform/vk14)
+
+![Github Actions](https://github.com/treeform/vk14/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/vk14)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/vk14)
+![GitHub](https://img.shields.io/github/license/treeform/vk14)
+![GitHub issues](https://img.shields.io/github/issues/treeform/vk14)
+
+Vulkan 1.4 wrapper for Nim across platforms.
+
+* A close-to-the-API wrapper for explicit modern graphics programming.
+* A good fit for engines, tools, and rendering experiments that want Vulkan control.
+
+
+## [ogl46](https://github.com/treeform/ogl46)
+
+![Github Actions](https://github.com/treeform/ogl46/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/ogl46)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/ogl46)
+![GitHub](https://img.shields.io/github/license/treeform/ogl46)
+![GitHub issues](https://img.shields.io/github/issues/treeform/ogl46)
+
+OpenGL 4.6 DSA wrapper for Nim across platforms.
+
+* Focused on modern OpenGL 4.6 Direct State Access style APIs.
+* Handy when you want a thin wrapper over OpenGL from Nim.
+
+
+## [dx12](https://github.com/treeform/dx12)
+
+![Github Actions](https://github.com/treeform/dx12/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/dx12)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/dx12)
+![GitHub](https://img.shields.io/github/license/treeform/dx12)
+![GitHub issues](https://img.shields.io/github/issues/treeform/dx12)
+
+DirectX 12 wrapper for Nim on Windows.
+
+* Low-level DirectX 12 access for native Windows rendering code.
+* Useful for engines, tools, and GPU experiments targeting Windows.
+
+
 ## [Nim Template](https://github.com/treeform/nimtemplate)
 
 ![Github Actions](https://github.com/treeform/nimtemplate/workflows/Github%20Actions/badge.svg)
@@ -301,6 +371,19 @@ Vector math routines for 2d and 3d graphics.
 * Very similar to GLSL Shader Language with extra stuff.
 * Extensively benchmarked.
 
+
+## [gltf](https://github.com/treeform/gltf)
+
+![Github Actions](https://github.com/treeform/gltf/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/gltf)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/gltf)
+![GitHub](https://img.shields.io/github/license/treeform/gltf)
+![GitHub issues](https://img.shields.io/github/issues/treeform/gltf)
+
+glTF 3d format library and viewer written in Nim.
+
+* Load and work with glTF assets directly from Nim.
+* Includes a viewer, making it useful for both tooling and rendering experiments.
 
 
 ## [SuperSnappy](https://github.com/guzba/supersnappy)
