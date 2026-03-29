@@ -1,10 +1,10 @@
 # Treeform's & Guzba's hobby
 
-Our hobby is to create Nim libraries that end with y. Here is a list of our libraries and short description on why you should is them:
+Our hobby is to create Nim libraries that end with y. Here is a list of our libraries and a short description of why you should use them:
 
-Most of them only depend on Nim Standard library or our other libraries.
+Most of them only depend on the Nim standard library or our other libraries.
 
-All MIT licensed!
+All MIT-licensed!
 
 
 ## [Pixie](https://github.com/treeform/pixie)
@@ -34,13 +34,13 @@ Pixie is a 2D graphics library similar to Cairo and Skia written entirely in Nim
 ![GitHub](https://img.shields.io/github/license/treeform/fidget)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/fidget)
 
-Fidget aims to provide performant natively compiled cross platform UIs for any platform - Web with HTML5, Windows, macOS, Linux, iOS and Android with OpenGL.
+Fidget aims to provide performant natively compiled cross-platform UIs for any platform - Web with HTML5, Windows, macOS, Linux, iOS and Android with OpenGL.
 
-Fidget leverages Figma - an app that is taking the design world by storm. It does this by providing a Figma Plugin to export directly to fidget code! No more counting stupid pixels, no more CSS puzzles. Want to change some spaces? Change it in Figma and export.
+Fidget leverages Figma - an app that is taking the design world by storm. It does this by providing a Figma plugin to export directly to Fidget code! No more counting stupid pixels, no more CSS puzzles. Want to change some spaces? Change it in Figma and export.
 
-Fidget uses plain nim-procs, nim-templates, if-statements and for-loops. As well as providing only minimal primitives found in Figma.
+Fidget uses plain nim-procs, nim-templates, if-statements and for-loops, while providing only the minimal primitives found in Figma.
 
-⚠️ WARNING: This library is depricated in favor of Fidget 2. ⚠️
+⚠️ WARNING: This library is deprecated in favor of Fidget 2. ⚠️
 
 ## [Fidget 2](https://github.com/treeform/fidget2)
 
@@ -50,9 +50,9 @@ Fidget uses plain nim-procs, nim-templates, if-statements and for-loops. As well
 ![GitHub](https://img.shields.io/github/license/treeform/fidget2)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/fidget2)
 
-Fidget2 aims to provide natively compiled cross platform UIs for any platform - Web with HTML5 (WASM), Windows, macOS, and Linux.
+Fidget2 aims to provide natively compiled cross-platform UIs for any platform - Web with HTML5 (WASM), Windows, macOS, and Linux.
 
-Fidget2 leverages [Figma](https://www.figma.com/) - an app that is taking the design world by storm. Fidget2 uses Figma API to load designs directly. No more counting pixels, no more CSS puzzles. Want to change some spaces? Change it in Figma, press F5 in your see the changes in real time!
+Fidget2 leverages [Figma](https://www.figma.com/) - an app that is taking the design world by storm. Fidget2 uses the Figma API to load designs directly. No more counting pixels, no more CSS puzzles. Want to change some spaces? Change it in Figma, press F5, and see the changes in real time!
 
 
 ## [Silky](https://github.com/treeform/silky)
@@ -77,7 +77,7 @@ Silky is an immediate mode GUI for Nim that focuses on speed above all else.
 ![GitHub](https://img.shields.io/github/license/treeform/ws)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/ws)
 
-Simple WebSocket library for nim.
+Simple WebSocket library.
 
 * Client and Server Side WebSocket
 * Async/Await Support
@@ -114,9 +114,9 @@ The goal of this library is to be a pure Nim implementation that is small, perfo
 
 A loose, direct to object JSON parser and serializer with hooks.
 
-Real world json is never what you want. It might have extra fields that you don't care about. It might have missing fields requiring default values. It might change or grow new fields at any moment. Json might use camelCase or snake_case. It might use inconsistent naming.
+Real-world JSON is never what you want. It might have extra fields that you don't care about. It might have missing fields requiring default values. It might change or grow new fields at any moment. JSON might use camelCase or snake_case. It might use inconsistent naming.
 
-With this library you can use json your way, from the mess you get to the objects you want.
+With this library you can use JSON your way, from the mess you get to the objects you want.
 
 * Parses and serializes JSON very fast.
 * newHook, postHook, enumHook, renameHook, parseHook, dumpHook, skipHook
@@ -149,9 +149,9 @@ Mummy has been written specifically to maximize the performance of your server h
 ![GitHub](https://img.shields.io/github/license/treeform/genny)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/genny)
 
-Generate Nim library bindings for many languages
+Generate Nim library bindings for many languages.
 
-So you made a cool Nim library but you want it to be available to other languages as well. With `genny` you can generate a dynamically linked library with a simple C API and generated bindings for many languages. In some ways its similar to [SWIG](http://www.swig.org/) project for C or [djinni](https://github.com/dropbox/djinni) for C++.
+So you made a cool Nim library but you want it to be available to other languages as well. With `genny` you can generate a dynamically linked library with a simple C API and generated bindings for many languages. In some ways it's similar to the [SWIG](http://www.swig.org/) project for C or [djinni](https://github.com/dropbox/djinni) for C++.
 
 
 
@@ -163,12 +163,12 @@ So you made a cool Nim library but you want it to be available to other language
 ![GitHub](https://img.shields.io/github/license/treeform/nimby)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/nimby)
 
-Nimby is an unofficial package manager.
+Nimby is an unofficial package manager and installer.
 
-* Very fast, dowloads minial files from git and in parallel.
+* Very fast, downloads minimal files from Git in parallel.
 * Installs Nim itself if you want.
 * Works with lock files to make CI and reproducible builds easy.
-* Workspace based installation.
+* Workspace-based installation.
 
 ## [Puppy](https://github.com/treeform/puppy)
 
@@ -180,7 +180,7 @@ Nimby is an unofficial package manager.
 
 Fetch resources via HTTP and HTTPS.
 
-Puppy does not use Nim's HTTP stack, instead it uses `WinHttp` API on Windows , `AppKit` on macOS, and `libcurl` on Linux. Because Puppy uses system APIs, there is no need to ship extra `*.dll`s, `cacert.pem`, or forget to pass the `-d:ssl` flag. This also has the effect of producing slightly smaller binaires.
+Puppy does not use Nim's HTTP stack. Instead, it uses the `WinHttp` API on Windows, `AppKit` on macOS, and `libcurl` on Linux. Because Puppy uses system APIs, there is no need to ship extra `*.dll`s, `cacert.pem`, or remember to pass the `-d:ssl` flag. This also has the effect of producing slightly smaller binaries.
 
 
 
@@ -192,9 +192,9 @@ Puppy does not use Nim's HTTP stack, instead it uses `WinHttp` API on Windows , 
 ![GitHub](https://img.shields.io/github/license/treeform/netty)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/netty)
 
-Reliable UDP connection for Nim.
+Reliable UDP connection.
 
-Netty is a reliable connection over UDP aimed at games. Normally UDP packets can get duplicated, dropped, or come out of order. Netty makes sure packets are not duplicated, re-sends them if they get dropped, and all packets come in order. UDP packets might also get split if they are above 512 bytes and also can fail to be sent if they are bigger than 1-2k. Netty breaks up big packets and sends them in pieces making sure each piece comes reliably in order. Finally sometimes it's impossible for two clients to communicate direclty with TCP because of NATs, but Netty provides hole punching which allows them to connect.
+Netty is a reliable connection over UDP aimed at games. Normally UDP packets can get duplicated, dropped, or come out of order. Netty makes sure packets are not duplicated, re-sends them if they get dropped, and all packets come in order. UDP packets might also get split if they are above 512 bytes and can also fail to be sent if they are bigger than 1-2k. Netty breaks up big packets and sends them in pieces, making sure each piece comes reliably and in order. Finally, sometimes it's impossible for two clients to communicate directly with TCP because of NATs, but Netty provides hole punching that allows them to connect.
 
 
 ## [Shady](https://github.com/treeform/shady)
@@ -209,7 +209,7 @@ Nim to GPU shader language compiler and supporting utilities.
 
 Shady can compile a subset of Nim into `OpenGL Shader Language` used by the GPU. This allows you to test your shader code with `echo` statements on the CPU and then run the exact same code on the GPU.
 
-* Write vertex and fragment/pixel shaders for games and 3d applications.
+* Write vertex and fragment/pixel shaders for games and 3D applications.
 * Write compute shaders for offline processing and number crunching.
 
 
@@ -223,7 +223,7 @@ Shady can compile a subset of Nim into `OpenGL Shader Language` used by the GPU.
 
 Metal 4 bindings for Nim on macOS.
 
-* Low-level access to Apple's Metal API from Nim.
+* Low-level access to Apple's Metal API.
 * Useful for graphics experiments, renderers, and native macOS GPU work.
 
 
@@ -235,7 +235,7 @@ Metal 4 bindings for Nim on macOS.
 ![GitHub](https://img.shields.io/github/license/treeform/vk14)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/vk14)
 
-Vulkan 1.4 wrapper for Nim across platforms.
+Vulkan 1.4 wrapper across platforms.
 
 * A close-to-the-API wrapper for explicit modern graphics programming.
 * A good fit for engines, tools, and rendering experiments that want Vulkan control.
@@ -249,10 +249,10 @@ Vulkan 1.4 wrapper for Nim across platforms.
 ![GitHub](https://img.shields.io/github/license/treeform/ogl46)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/ogl46)
 
-OpenGL 4.6 DSA wrapper for Nim across platforms.
+OpenGL 4.6 DSA wrapper across platforms.
 
 * Focused on modern OpenGL 4.6 Direct State Access style APIs.
-* Handy when you want a thin wrapper over OpenGL from Nim.
+* Handy when you want a thin wrapper over OpenGL.
 
 
 ## [dx12](https://github.com/treeform/dx12)
@@ -263,7 +263,7 @@ OpenGL 4.6 DSA wrapper for Nim across platforms.
 ![GitHub](https://img.shields.io/github/license/treeform/dx12)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/dx12)
 
-DirectX 12 wrapper for Nim on Windows.
+DirectX 12 wrapper on Windows.
 
 * Low-level DirectX 12 access for native Windows rendering code.
 * Useful for engines, tools, and GPU experiments targeting Windows.
@@ -277,7 +277,7 @@ DirectX 12 wrapper for Nim on Windows.
 ![GitHub](https://img.shields.io/github/license/treeform/nimtemplate)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/nimtemplate)
 
-You can use this nim template to jump start your nim library or project.
+You can use this Nim template to jump-start your Nim library or project.
 
 This template includes:
 * MIT licence
@@ -361,7 +361,7 @@ The basic model for using Boxy goes something like this:
 
 Serializer and tools for flat binary blobs.
 
-* Aim of `flatty` is to be the fastest and simplest serializer/deserializer for Nim.
+* Aim of `flatty` is to be the fastest and simplest serializer/deserializer.
 * Also includes `hexprint` to print out binary data.
 * Also includes `binny` a simpler replacement for StringStream (no IO effects, operates on a string)
 * Also includes `hashy` a hash for any objects based on the flatty serializer.
@@ -377,7 +377,7 @@ Serializer and tools for flat binary blobs.
 ![GitHub](https://img.shields.io/github/license/treeform/vmath)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/vmath)
 
-Vector math routines for 2d and 3d graphics.
+Vector math routines for 2D and 3D graphics.
 
 * Pure Nim with no dependencies.
 * 2D & 3D matrix math
@@ -395,9 +395,9 @@ Vector math routines for 2d and 3d graphics.
 ![GitHub](https://img.shields.io/github/license/treeform/gltf)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/gltf)
 
-glTF 3d format library and viewer written in Nim.
+glTF 3D format library and viewer.
 
-* Load and work with glTF assets directly from Nim.
+* Load and work with glTF assets directly.
 * Includes a viewer, making it useful for both tooling and rendering experiments.
 
 
@@ -423,7 +423,7 @@ Benchmarking shows this library performs significantly better in all cases than 
 ![GitHub](https://img.shields.io/github/license/treeform/chrono)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/chrono)
 
-Timestamps, Calendars, and Timezones library for nim.
+Timestamps, calendars, and timezones library.
 
 * Parse Timestamps
 * Format Timestamps
@@ -443,7 +443,7 @@ Timestamps, Calendars, and Timezones library for nim.
 
 Simple benchmarking to time your code.
 
- Just put your code in a `timeIt` block. Also put result of your computation into `keep()` so that compiler does not optimize it out. Don't forgot to run with `-d:release` or better yet `-d:danger`.
+Just put your code in a `timeIt` block. Also put the result of your computation into `keep()` so that the compiler does not optimize it out. Don't forget to run with `-d:release` or, better yet, `-d:danger`.
 
 
 
@@ -455,13 +455,13 @@ Simple benchmarking to time your code.
 ![GitHub](https://img.shields.io/github/license/treeform/spacy)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/spacy)
 
-Spatial data structures for Nim.
+Spatial data structures.
 
 Spatial algorithms are used to find the "closest" things faster than simple brute force iteration would. They make your code run faster using smarter data structures. This library has different "Spaces" that you can use to speed up games and graphical applications.
 
 * BruteSpace (for loop)
 * SortSpace (quick sort)
-* HashSpace (2d hash table)
+* HashSpace (2D hash table)
 * QuadSpace (Quad-tree)
 * KdSpace (KD-tree)
 
@@ -475,7 +475,7 @@ Spatial algorithms are used to find the "closest" things faster than simple brut
 ![GitHub](https://img.shields.io/github/license/treeform/orbits)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/orbits)
 
-Orbits are beautiful, with their gentle curves and sweeping arcs. They have captivated astronomers for thousands of years and have made mathematics and physics to what they are today. There is so much to the orbits if you dig dipper. Where do you get most accurate data? How do you compute transfer windows? Can you plot trajectories of spacecraft? This is what this library is about. An exploration of deep beyond with Nim at your side.
+Orbits are beautiful, with their gentle curves and sweeping arcs. They have captivated astronomers for thousands of years and helped make mathematics and physics what they are today. There is so much to orbits if you dig deeper. Where do you get the most accurate data? How do you compute transfer windows? Can you plot trajectories of spacecraft? This is what this library is about. An exploration of the deep beyond with Nim at your side.
 
 * Simple Elliptical Orbits
 * Kernel Files Orbits (NASA's .bsp SPICE SP-kernels)
@@ -493,7 +493,7 @@ Orbits are beautiful, with their gentle curves and sweeping arcs. They have capt
 ![GitHub](https://img.shields.io/github/license/treeform/bumpy)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/bumpy)
 
-2D geometry intersections library for Nim.
+2D geometry intersections library.
 
 * Point
 * Circle
@@ -512,7 +512,7 @@ Orbits are beautiful, with their gentle curves and sweeping arcs. They have capt
 ![GitHub](https://img.shields.io/github/license/treeform/webby)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/webby)
 
-Webby is a collection of common HTTP data structures and functionality. This includes things parsing and generating:
+Webby is a collection of common HTTP data structures and functionality. This includes things for parsing and generating:
 
 * Url
 * HTTP headers
@@ -528,11 +528,11 @@ Webby is a collection of common HTTP data structures and functionality. This inc
 ![GitHub](https://img.shields.io/github/license/treeform/slappy)
 ![GitHub issues](https://img.shields.io/github/issues/treeform/slappy)
 
-3D Sound API for Nim.
+3D sound API.
 
 * `.wav` and `.ogg` loading.
-* 3d positions of sounds.
-* 3d position of listener.
+* 3D positions of sounds.
+* 3D position of listener.
 * Doppler shift.
 * Acoustic attenuation.
 
@@ -601,7 +601,7 @@ This library parses `.csv` or `.tsv` files directly into Nim objects. This is di
 ![GitHub](https://img.shields.io/github/license/guzba/nimsimd)
 ![GitHub issues](https://img.shields.io/github/issues/guzba/nimsimd)
 
-Pleasant Nim bindings for various SIMD instructions.
+Pleasant bindings for various SIMD instructions.
 
 * SSE
 * SSE2
@@ -696,7 +696,7 @@ Use `pretty`.`print` the same way you would use `echo` for pretty-debugging. It 
 
 # Deprecated libraries
 
-We have written some libraries that we are not longer maintaining:
+We have written some libraries that we are no longer maintaining:
 
 * [Urlly](https://github.com/treeform/urlly) - use [Webby](https://github.com/treeform/webby) instead.
 * [Typography](https://github.com/treeform/typography) - use [Pixie](https://github.com/treeform/pixie) instead.
