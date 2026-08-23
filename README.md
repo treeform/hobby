@@ -197,6 +197,23 @@ Reliable UDP connection.
 Netty is a reliable connection over UDP aimed at games. Normally UDP packets can get duplicated, dropped, or come out of order. Netty makes sure packets are not duplicated, re-sends them if they get dropped, and all packets come in order. UDP packets might also get split if they are above 512 bytes and can also fail to be sent if they are bigger than 1-2k. Netty breaks up big packets and sends them in pieces, making sure each piece comes reliably and in order. Finally, sometimes it's impossible for two clients to communicate directly with TCP because of NATs, but Netty provides hole punching that allows them to connect.
 
 
+## [Steamworks](https://github.com/treeform/steamworks)
+
+![Github Actions](https://github.com/treeform/steamworks/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/steamworks)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/steamworks)
+![GitHub](https://img.shields.io/github/license/treeform/steamworks)
+![GitHub issues](https://img.shields.io/github/issues/treeform/steamworks)
+
+Steamworks is a Nim wrapper for Valve's Steamworks API.
+
+* User accounts and friends.
+* Achievements and stats.
+* Controller and Steam Input support.
+* Networking, lobbies, and workshop items.
+* Generated from the Steamworks SDK specification with a Nim-friendly API.
+
+
 ## [Shady](https://github.com/treeform/shady)
 
 ![Github Actions](https://github.com/treeform/shady/workflows/Github%20Actions/badge.svg)
@@ -328,6 +345,25 @@ Features:
 * Show a system tray icon and menu (Windows only)
 * Non-blocking HTTP requests and WebSockets
 * Basic Example
+
+
+
+## [Paddy](https://github.com/treeform/paddy)
+
+![Github Actions](https://github.com/treeform/paddy/workflows/Github%20Actions/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/treeform/paddy)
+![GitHub Repo stars](https://img.shields.io/github/stars/treeform/paddy)
+![GitHub](https://img.shields.io/github/license/treeform/paddy)
+![GitHub issues](https://img.shields.io/github/issues/treeform/paddy)
+
+Paddy is a gamepad API for Nim, designed to pair with Windy. Windy gives you the window and the frame flow, Paddy gives you the controllers. Gamepad support pulls in extra platform frameworks and setup, so it lives in its own library that you only opt into if you need it.
+
+* Multi-platform, using the native backend on each one: XInput on Windows, GameController.framework on macOS, udev + evdev on Linux, and the HTML5 Gamepad API on the web.
+* Poll controllers once per frame, then read a consistent gamepad state.
+* Connection status and device names.
+* Buttons, plus pressed and released edges.
+* Trigger pressure and analog stick axes.
+* D-pad state.
 
 
 
